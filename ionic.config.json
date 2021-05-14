@@ -1,0 +1,7 @@
+{
+  "name": "berlin-calling",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
