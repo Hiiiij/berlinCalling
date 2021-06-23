@@ -165,7 +165,7 @@ http://ionicframework.com/docs/theming/ */
   }
 
   /*
-   * iOS Dark Theme
+   * iOS Dark Theme 
    * -------------------------------------------
    */
 
@@ -213,7 +213,7 @@ http://ionicframework.com/docs/theming/ */
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: £;
     --ion-background-color-rgb: 18, 18, 18;
 
     --ion-text-color: #ffffff;
