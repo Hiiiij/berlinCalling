@@ -1,12 +1,23 @@
 import "./ExploreContainer.css";
+import styled from "styled-components";
 import { Button } from "./Button";
 interface ContainerProps {}
 
+const ButtonWrapper = styled.div`
+  padding: 0 3rem 0 3rem;
+`;
 const ExploreContainer: React.FC<ContainerProps> = () => {
+  const handleClick = () => {
+    document.body.classList.toggle("dark");
+  };
   return (
     <div className="container">
       <strong>Ready to create an app?</strong>
-      <Button>LOL</Button>
+      <ButtonWrapper>
+        <Button onClick={handleClick} color="primary" expand="full">
+          LOL
+        </Button>
+      </ButtonWrapper>
       <p>
         Start with Ionic{" "}
         <a
