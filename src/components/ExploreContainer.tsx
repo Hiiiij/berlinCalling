@@ -6,6 +6,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
       <strong>Ready to create an app?</strong>
+      <Button>LOL</Button>
       <p>
         Start with Ionic{" "}
         <a
@@ -14,7 +15,6 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
           href="https://ionicframework.com/docs/components"
         >
           UI Components
-          <Button>LOL</Button>
         </a>
       </p>
     </div>
