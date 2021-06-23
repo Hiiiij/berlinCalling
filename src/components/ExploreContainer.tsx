@@ -1,5 +1,5 @@
 import "./ExploreContainer.css";
-import { IonButton } from "@ionic/react";
+import { Button } from "./Button";
 interface ContainerProps {}
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
@@ -14,7 +14,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
           href="https://ionicframework.com/docs/components"
         >
           UI Components
-          <IonButton color="lol">LOL</IonButton>
+          <Button>LOL</Button>
         </a>
       </p>
     </div>
